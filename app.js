@@ -28,6 +28,13 @@ const products = [
     price: 130,
     front: "images/brasil-yellow-front.jpg",
     back: "images/brasil-yellow-back.jpg"
+  },
+  {
+    name: "بلوزة البرتغال",
+    player: "Ronaldo / رقم 7",
+    price: 130,
+    front: "images/portugal-front.jpg",
+    back: "images/portugal-back.jpg"
   }
 ];
 
