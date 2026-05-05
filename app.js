@@ -1,4 +1,4 @@
-const instagramPage = "https://www.instagram.com/world.cup2026.store/";
+const instagramChat = "https://ig.me/m/world.cup2026.store";
 
 const products = [
   {
@@ -85,12 +85,11 @@ function changeImage(index, side) {
 }
 
 function orderNow() {
-  window.open(instagramPage, "_blank");
+  window.open(instagramChat, "_blank");
 }
 
 function orderProduct(productName) {
-  alert("راح نفتحلك الإنستغرام. ابعتلنا رسالة واكتب: بدي " + productName);
-  window.open(instagramPage, "_blank");
+  window.open(instagramChat, "_blank");
 }
 
 renderProducts();
