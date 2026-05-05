@@ -85,10 +85,14 @@ function changeImage(index, side) {
 }
 
 function orderNow() {
+  const message = "مرحبا، بدي أطلب بلوزة من بلوزات كأس العالم 2026";
+  navigator.clipboard.writeText(message);
   window.open(instagramChat, "_blank");
 }
 
 function orderProduct(productName) {
+  const message = `مرحبا، بدي أطلب ${productName}`;
+  navigator.clipboard.writeText(message);
   window.open(instagramChat, "_blank");
 }
 
