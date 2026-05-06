@@ -35,6 +35,13 @@ const products = [
     price: 130,
     front: "images/portugal-front.jpg",
     back: "images/portugal-back.jpg"
+  },
+  {
+    name: "بلوزة فرنسا الزرقاء",
+    player: "Mbappe / رقم 10",
+    price: 130,
+    front: "images/france-front.png",
+    back: "images/france-back.png"
   }
 ];
 
