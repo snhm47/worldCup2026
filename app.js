@@ -2,7 +2,14 @@ const instagramChat = "https://ig.me/m/world.cup2026.store";
 
 const products = [
   {
-    name: "بلوزة البرازيل السوداء",
+      name: "بلوزة البرازيل الزرقاء",
+    player: "Raphinha / رقم 11",
+    price: 130,
+    front: "images/brasil-raphinha11-front.png",
+    back: "images/brasil-raphinha11-back.png"
+  },
+  {
+    name: "بلوزة البرازيل الزرقاء",
     player: "Raphinha / رقم 10",
     price: 130,
     front: "images/brasil-black-front.jpg",
@@ -21,6 +28,20 @@ const products = [
     price: 130,
     front: "images/argentina-front.jpg",
     back: "images/argentina-back.jpg"
+  },
+  // {
+  //   name: "بلوزة البرازيل الزرقاء",
+  //   player: "Raphinha / رقم 11",
+  //   price: 130,
+  //   front: "images/brasil-raphinha11-front.png",
+  //   back: "images/brasil-raphinha11-back.png"
+  // },
+  {
+    name: "بلوزة البرازيل الزرقاء",
+    player: "Vini Jr. / رقم 10",
+    price: 130,
+    front: "images/brasil-vini10-front.png",
+    back: "images/brasil-vini10-back.png"
   },
   {
     name: "بلوزة البرازيل الصفراء",
