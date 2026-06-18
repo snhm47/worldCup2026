@@ -23,7 +23,7 @@ const products = [
   price: 130,
   front: "images/brasil-black-front.jpg",
   back: "images/brasil-blue-neymar10-back.png",
-  soldOut: false
+  soldOut: true
   },
   {
     name: "بلوزة البرازيل الزرقاء",
@@ -42,12 +42,12 @@ const products = [
     soldOut: false
   },
   {
-    name: "بلوزة ألمانيا البيضاء",
-    player: "Musiala / رقم 10",
-    price: 130,
-    front: "images/germany-front.jpg",
-    back: "images/germany-back.jpg",
-    soldOut: true
+    name: "بلوزة البرازيل الزرقاء",
+    player: "Vini Jr. / رقم 10",
+    price: 100,
+    front: "images/brasil-vini10-front.png",
+    back: "images/brasil-vini10-back.png",
+    soldOut: false
   },
   {
     name: "بلوزة الأرجنتين",
@@ -55,15 +55,31 @@ const products = [
     price: 130,
     front: "images/argentina-front.jpg",
     back: "images/argentina-back.jpg",
+    soldOut: true
+  },
+    {
+    name: "بلوزة فرنسا الزرقاء",
+    player: "Mbappe / رقم 10",
+    price: 130,
+    front: "images/france-front.png",
+    back: "images/france-back.png",
     soldOut: false
   },
   {
-    name: "بلوزة البرازيل الزرقاء",
-    player: "Vini Jr. / رقم 10",
-    price: 100,
-    front: "images/brasil-vini10-front.png",
-    back: "images/brasil-vini10-back.png",
+    name: "بلوزة كرواتيا",
+    player: "Modrić / رقم 10",
+    price: 130,
+    front: "images/croatia-modric10-front.png",
+    back: "images/croatia-modric10-back.png",
     soldOut: false
+  },
+    {
+    name: "بلوزة ألمانيا البيضاء",
+    player: "Musiala / رقم 10",
+    price: 130,
+    front: "images/germany-front.jpg",
+    back: "images/germany-back.jpg",
+    soldOut: true
   },
   {
     name: "بلوزة البرازيل الصفراء",
@@ -80,22 +96,6 @@ const products = [
     front: "images/portugal-front.jpg",
     back: "images/portugal-back.jpg",
     soldOut: true
-  },
-  {
-    name: "بلوزة فرنسا الزرقاء",
-    player: "Mbappe / رقم 10",
-    price: 130,
-    front: "images/france-front.png",
-    back: "images/france-back.png",
-    soldOut: false
-  },
-  {
-  name: "بلوزة كرواتيا",
-  player: "Modrić / رقم 10",
-  price: 130,
-  front: "images/croatia-modric10-front.png",
-  back: "images/croatia-modric10-back.png",
-  soldOut: false
   },
 
 ];
